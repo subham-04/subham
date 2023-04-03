@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/subham/static/css/main.edaefce0.css",
+    "main.js": "/subham/static/js/main.2ac91385.js",
+    "static/media/Skyline-DFW.gif": "/subham/static/media/Skyline-DFW.32c84d8941640f6128a6.gif",
+    "static/media/humaniod.jpg": "/subham/static/media/humaniod.97ded20e81f8d859ec90.jpg",
+    "static/media/subham bw.png": "/subham/static/media/subham bw.1d46c1b8ea2840c4dc22.png",
+    "static/media/2.jpg": "/subham/static/media/2.fce407aa7f25965c451a.jpg",
+    "static/media/11.jpg": "/subham/static/media/11.678aba4ab7faa3705540.jpg",
+    "static/media/15.jpg": "/subham/static/media/15.1a8e79c94d0f840d352b.jpg",
+    "static/media/1.jpg": "/subham/static/media/1.aeced5d12583b42e3645.jpg",
+    "static/media/12.jpg": "/subham/static/media/12.ec2382f7b1d32bf1de28.jpg",
+    "static/media/4.jpg": "/subham/static/media/4.c8bd126a43150b7b6709.jpg",
+    "static/media/3.jpg": "/subham/static/media/3.9de0a5ef3806861998d9.jpg",
+    "static/media/resume.pdf": "/subham/static/media/resume.2317b6ec63e82be78b44.pdf",
+    "static/media/13.jpg": "/subham/static/media/13.ee694c40a2dfb494a29e.jpg",
+    "static/media/18.jpg": "/subham/static/media/18.1872fd6d12964254c1d5.jpg",
+    "static/media/20.jpg": "/subham/static/media/20.bd82ea60a7633af06a40.jpg",
+    "static/media/14.jpg": "/subham/static/media/14.980dea0e46a6836b3ed3.jpg",
+    "static/media/7.jpg": "/subham/static/media/7.60aeb7ff61ddf63eedbc.jpg",
+    "index.html": "/subham/index.html",
+    "main.edaefce0.css.map": "/subham/static/css/main.edaefce0.css.map",
+    "main.2ac91385.js.map": "/subham/static/js/main.2ac91385.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edaefce0.css",
+    "static/js/main.2ac91385.js"
+  ]
+}

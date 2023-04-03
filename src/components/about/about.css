@@ -1,0 +1,152 @@
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(90deg, transparent, var(--color-primary));
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transition:  all 0.4s;
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    
+    
+    
+}
+.text-accent{
+    color: var(--text-accent) !important;
+}
+
+
+.about__card{
+    background: var(--color-bg-variant);
+    padding: 1rem ;
+    border-radius: 0.8rem;
+    text-align: center;
+    transition: var(--transition);
+    border: 2px solid transparent;
+
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+}
+
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.about__card h5{
+    font-size: 0.95rem;
+    
+}
+
+.about__card small{
+    font-size: 0.75rem;
+    color: var(--color-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2.5rem;
+}
+
+.creator-description{
+    font-size: 1.05rem;
+}
+
+.creator{
+    font-size: 1.8rem;
+    margin-inline: 0.5rem;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+    background: linear-gradient(to left, 
+    #218dd5, 
+    #40bcbe, 
+    #49bb78,
+    #1f64e3
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500%;
+    animation: animate 3s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0% {
+        background-position: 0% 25%;
+    }
+    50%{
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+/*           Media Queries (Medium Devices)          */
+
+@media screen and (max-width: 1024px)  {
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about__content{
+        text-align: center;
+    }
+    .about__content p{
+        margin: 1rem 0 1.5rem;
+        
+    }
+    
+}
+
+/*           Media Queries (Smaller Devices)          */
+
+@media screen and (max-width: 600px)  {
+
+    .about__me{
+        width: 65%;
+        margin: 1rem auto 3rem;
+    }
+
+    .about__cards{
+        margin: 0 auto;
+        grid-template-columns: repeat(1fr);
+        gap: 1rem;
+        width: 90%;
+    }
+
+    .about__content{
+        text-align: center;
+    }
+
+    .about__content p{
+        margin: 2.5rem 0.5rem ;
+
+
+        
+    }
+
+}

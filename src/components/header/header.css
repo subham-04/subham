@@ -1,0 +1,140 @@
+header{
+    height: 100vh;
+    padding-top: 4rem;
+    /* overflow: hidden; */
+
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.sam{
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+    background: linear-gradient(to left, 
+    #1d71a9, 
+    #359d9e, 
+    #49bb78,
+    #184aa6
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500%;
+    animation: animate 3s ease-in-out infinite;
+
+}
+
+@keyframes animate{
+    0% {
+        background-position: 0% 25%;
+    }
+    50%{
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+
+/* CTA */
+
+.cta{
+    margin: 2.5rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* HEADER SOCIALS */
+
+.header__socials{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    left: 0;
+    bottom: 3rem;
+    
+}
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 4rem;
+    background-color: var(--color-primary);
+}
+
+.header__socials::before{
+    content: "";
+    width: 1px;
+    height: 4rem;
+    background-color: var(--color-primary);
+}
+
+.me{
+    background:linear-gradient(transparent,var(--color-primary-variant),var(--color-primary),var(--color-primary));
+    height: 24rem;
+    width: 24rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10%;
+    border-radius: 9rem 9rem 2rem 2rem;
+    transition: all 0.4s ease-in;
+    overflow: hidden;
+
+    
+}
+
+.me:hover{
+    background-color: var(--color-primary);
+}
+
+/* Scroll Down */
+
+.scroll__down{
+    position: absolute;
+    right: 0rem;
+    bottom: 11rem;
+    transform: rotate(90deg);
+    font-weight: 500;
+}
+
+.text-loop > span{
+    display: inline;
+    
+}
+
+/*           Media Queries (Medium Devices)          */
+
+@media screen and (max-width: 1024px)  {
+    
+    header{
+        height: 100vh;
+    }
+}
+
+/*           Media Queries (Smaller Devices)          */
+
+@media screen and (max-width: 600px)  {
+
+    
+
+    .me{
+        width: 85%;
+        height: auto;
+        margin-top: 2.9rem;
+    }
+
+    header{
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+    }
+}

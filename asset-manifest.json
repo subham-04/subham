@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/subham/static/css/main.edaefce0.css",
-    "main.js": "/subham/static/js/main.2ac91385.js",
+    "main.js": "/subham/static/js/main.b4c8becb.js",
     "static/media/Skyline-DFW.gif": "/subham/static/media/Skyline-DFW.32c84d8941640f6128a6.gif",
     "static/media/humaniod.jpg": "/subham/static/media/humaniod.97ded20e81f8d859ec90.jpg",
     "static/media/subham bw.png": "/subham/static/media/subham bw.1d46c1b8ea2840c4dc22.png",
@@ -20,10 +20,10 @@
     "static/media/7.jpg": "/subham/static/media/7.60aeb7ff61ddf63eedbc.jpg",
     "index.html": "/subham/index.html",
     "main.edaefce0.css.map": "/subham/static/css/main.edaefce0.css.map",
-    "main.2ac91385.js.map": "/subham/static/js/main.2ac91385.js.map"
+    "main.b4c8becb.js.map": "/subham/static/js/main.b4c8becb.js.map"
   },
   "entrypoints": [
     "static/css/main.edaefce0.css",
-    "static/js/main.2ac91385.js"
+    "static/js/main.b4c8becb.js"
   ]
 }

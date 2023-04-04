@@ -1,6 +1,6 @@
 import React from 'react';
 import './testimonials.css'
-import Human from '../../assets/images/humaniod.jpg';
+import Krishnendu from '../../assets/testimonial_img/Krishnendu Nandi.jpg';
 
 
 // import required modules
@@ -23,10 +23,10 @@ import "swiper/css/pagination";
 const data = [
     
     {
-        avatar: Human,
-          name: 'Avatar Baba',
-          comapny_name:"company_name",
-          review: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.'
+        avatar: Krishnendu,
+          name: 'Krishnendu Nandi',
+          comapny_name:"Accenture",
+          review: 'I know Subham for quite some times as he is my junior from same college. We have come across many times during hackathons, different coding competitions. I have seen a few folks having the amount of enthusiasm and learning capacity Subham has. He is truly a smart-working geek. And last but not the least, he is a good human being.'
     }
 
 
@@ -58,7 +58,7 @@ function Testimonials() {
             <div key={index} className="client__avatar">
               <img src={avatar} alt="User" />
             </div>
-            <h5 className="client__name">{name} at {comapny_name}</h5>
+            <h5 className="client__name">{name} @ {comapny_name}</h5>
               <small className="client__review">
                 {review}
               </small>

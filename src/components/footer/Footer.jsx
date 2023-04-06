@@ -17,9 +17,9 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/subham0422/"><FiLinkedin/></a>
-        <a href="https://github.com/subham-04"><FiGithub/></a>
-        <a href="https://www.instagram.com/subham0422/"><FiInstagram/></a>
+        <a href="https://www.linkedin.com/in/subham0422/" target='_blank' rel='noreferrer'><FiLinkedin/></a>
+        <a href="https://github.com/subham-04"  target='_blank' rel='noreferrer'><FiGithub/></a>
+        <a href="https://www.instagram.com/subham0422/"  target='_blank' rel='noreferrer'><FiInstagram/></a>
       </div>
     </div>
     <div className="skyline-box">

@@ -77,12 +77,12 @@ header{
 
 .me{
     background:linear-gradient(transparent,var(--color-primary-variant),var(--color-primary),var(--color-primary));
-    height: 24rem;
-    width: 24rem;
+    height: auto;
+    width: 30%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 10%;
+    margin-top: 9%;
     border-radius: 9rem 9rem 2rem 2rem;
     transition: all 0.4s ease-in;
     overflow: hidden;

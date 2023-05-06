@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/subham/static/css/main.edaefce0.css",
+    "main.css": "/subham/static/css/main.3cda47ff.css",
     "main.js": "/subham/static/js/main.10da6a8d.js",
     "static/media/Krishnendu Nandi.jpg": "/subham/static/media/Krishnendu Nandi.f439132f8c3a41fd99d6.jpg",
     "static/media/Skyline-DFW.gif": "/subham/static/media/Skyline-DFW.32c84d8941640f6128a6.gif",
@@ -21,11 +21,11 @@
     "static/media/14.jpg": "/subham/static/media/14.980dea0e46a6836b3ed3.jpg",
     "static/media/7.jpg": "/subham/static/media/7.60aeb7ff61ddf63eedbc.jpg",
     "index.html": "/subham/index.html",
-    "main.edaefce0.css.map": "/subham/static/css/main.edaefce0.css.map",
+    "main.3cda47ff.css.map": "/subham/static/css/main.3cda47ff.css.map",
     "main.10da6a8d.js.map": "/subham/static/js/main.10da6a8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.edaefce0.css",
+    "static/css/main.3cda47ff.css",
     "static/js/main.10da6a8d.js"
   ]
 }

@@ -33,10 +33,10 @@ const projects= [
     {
         id: 3,
         image: IMG2,
-        title: 'Notes App cli',
-        github: 'https://github.com/subham-04/notes-app-cli',
-        live: 'https://github.com/subham-04/notes-app-cli',
-        desc:'This is the backend only project, here technologies like Nodejs is used. Here we have our custom command and flags.'
+        title: 'Live Connect',
+        github: 'https://github.com/subham-04/Live-Connect',
+        live: 'https://subham-04.github.io/Live-Connect/',
+        desc: 'Developed a real-time video conferencing application which enables seamless communication between users'
 
     },
     {
